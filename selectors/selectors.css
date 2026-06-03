@@ -1,0 +1,55 @@
+
+
+/* tag name selector  */
+
+/* h1{
+    color: red;
+} */
+
+ /* ID selector */
+  /* 1.prefix with # */
+  /* 2.Id always should be unique */
+
+  /* #sundari{
+    color: green;
+  } */
+  /* #mala{
+    color: yellow;
+  } */
+  /* #sheela{
+    color: orange;
+  } */
+ /* class selector  */
+ /* prefix with dot  */
+/* .java{
+    font-size: 100px;
+    background-color: red;
+  } */
+
+  /* .cse{
+    color: white;
+    background-color: black;
+  } */
+  /* .ece{
+    color: green;
+    background-color: pink;
+  } */
+  /* .mech{
+    color: black;
+    
+  } */
+
+
+/* group selectors  */
+
+/* span,p,h5,.demo,.mech,#sundari{
+    background-color: yellow;
+} */
+
+/* universal selector  */
+    /* it selects all elements at once  */
+*{
+    color: red;
+}
+
+

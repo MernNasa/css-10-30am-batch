@@ -1,0 +1,15 @@
+div{
+    width: 100%;
+    height: 650px;
+    padding-left: 30px;
+    border: 2px solid black;
+    background-image: url("https://s7ap1.scene7.com/is/image/incredibleindia/sri-jagannath-temple-puri-odisha-1-attr-hero?qlt=82&ts=1726663747217");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+h1{
+    width: 500px;
+    font-family: monospace;
+}

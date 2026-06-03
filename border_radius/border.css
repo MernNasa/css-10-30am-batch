@@ -1,0 +1,16 @@
+div{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    /* border-radius: 20px; */
+
+    /* border-radius: 50%; */
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/050/393/628/small/cute-curious-gray-and-white-kitten-in-a-long-shot-photo.jpg");
+    background-size: cover;
+    background-position: center;
+}

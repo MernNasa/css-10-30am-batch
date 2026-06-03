@@ -1,0 +1,19 @@
+h1{
+    color:white;
+    font-style: italic;
+    font-size: 50px;
+    font-family:monospace;
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    letter-spacing: 40px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 5px gray;
+    text-align: center;
+    background-color: orange;
+    width: 300px;
+    overflow: scroll;
+}
+a{
+    text-decoration: none;
+}
