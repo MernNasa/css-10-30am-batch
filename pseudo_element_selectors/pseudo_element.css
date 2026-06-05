@@ -1,0 +1,11 @@
+p::selection{
+    background-color: hotpink;
+    color: red;
+}
+
+p::first-line{
+    background-color: red;
+}
+p::first-letter{
+    font-size: 100px;
+}

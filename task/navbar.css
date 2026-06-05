@@ -58,8 +58,25 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    /* background-color: red; */
 }
+.textBox{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* background-color: yellow; */
+}
+
+span{
+    width: 120px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+
 .hero-image{
     width: 50%;
     height: 100%;

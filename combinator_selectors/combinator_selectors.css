@@ -1,0 +1,21 @@
+
+/* Descendent selector */
+
+/* div p{
+    color: red;
+} */
+
+
+/* direct child selector  */
+/* div>p{
+    color: red;
+} */
+
+div+p{
+    color: red;
+}
+
+
+div~p{
+    color: red;
+}
