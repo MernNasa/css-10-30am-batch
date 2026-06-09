@@ -1,4 +1,4 @@
-p::selection{
+/* p::selection{
     background-color: hotpink;
     color: red;
 }
@@ -9,3 +9,38 @@ p::first-line{
 p::first-letter{
     font-size: 100px;
 }
+
+h1{
+    background-color: yellow;
+}
+
+h1::before{
+    content: "💖💞";
+}
+h1::after{
+    content: "Sundari";
+} */
+
+
+
+div{
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: red;
+}
+
+div::after{
+    content: "After content";
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+}
+
+div::before{
+    content: "Before content";
+    width: 400px;
+    height: 400px;
+    background-color: green;
+}
+
