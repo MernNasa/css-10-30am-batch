@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .parent{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            border-radius: 50%;
+        }
+        .child{
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            border: 1px solid black;
+            position: absolute;
+            border-radius: 50%;
+        }
+        .child:nth-child(1){
+            background-color: yellow;
+            top: -100%;
+            left: 25%;
+        }
+        .child:nth-child(2){
+            background-color: gray;
+            right: -100%;
+            top: 25%;
+        }
+        .child:nth-child(3){
+            background-color: teal;
+            bottom: -100%;
+            right: 25%;
+        }
+        .child:nth-child(4){
+            background-color: orange;
+            left: -100%;
+            top: 25%;
+            
+        }
+        .child:nth-child(5){
+            background-color: blue;
+            top: -65%;
+            left: -65%;
+        }
+        .child:nth-child(6){
+            background-color: pink;
+            top: -65%;
+            right: -65%;
+        }
+        .child:nth-child(7){
+            background-color: purple;
+            bottom: -65%;
+            right: -65%;
+        }
+        .child:nth-child(8){
+            background-color: black;
+            bottom: -65%;
+            left: -65%;
+        }
+        .line:nth-child(9){
+            height: 200px;
+            width: 5px;
+            background-color: black;
+            position: absolute;
+            left: 50%;
+            top: -50%;
+            z-index: -1;
+        }
+        .line:nth-child(10){
+            height: 5px;
+            width: 200px;
+            background-color: black;
+            position: absolute;
+            left: -50%;
+            top: 50%;
+            z-index: -1;
+        }
+        .line:nth-child(11){
+            height: 5px;
+            width: 200px;
+            background-color: blue;
+            position: absolute;
+            left: -50%;
+            top: 50%;
+            z-index: -1;
+            transform: rotate(45deg);
+        }
+        .line:nth-child(12){
+            height: 5px;
+            width: 200px;
+            background-color: yellow;
+            position: absolute;
+            left: -50%;
+            top: 50%;
+            z-index: -1;
+            transform: rotate(-45deg);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</body>
+</html>
