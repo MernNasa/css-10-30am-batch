@@ -32,6 +32,19 @@ body{
     background-color: red;
 }
 
+.card::before{
+    content: "";
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    top: -120%;
+    right: -100%;
+    transition: all 1.5s;
+    background-color: yellow;
+    transform: rotate(45deg);
+    z-index: 10;
+}
+
 .card:hover{
     /* transform: rotate(180deg); */
     /* border-radius: 50%; */
@@ -39,4 +52,9 @@ body{
 .card:hover::after{
     top: 0;
     left: 0%;
+}
+
+.card:hover::before{
+    top: 19%;
+    right: 1%;
 }
