@@ -71,7 +71,7 @@ nav{
 .hero{
     width: 100%;
     height: 615px;
-    overflow: scroll;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;

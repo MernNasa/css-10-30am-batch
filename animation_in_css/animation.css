@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: red;
+    animation: rotation 1s infinite;
+}
+
+/* for animation in css we have to use @ rule i.e is @keyframe */
+
+@keyframes rotation {
+    0%{
+        width: 10px;
+        height: 10px;
+        /* transform: translateX(0px) ; */
+        background-color: red;
+    }
+    50%{
+        width: 50px;
+        height: 50px;
+        /* transform: translateX(100px); */
+        background-color: blue;
+        border-radius: 50%;
+    }
+    100%{
+        
+        /* transform:translateX(0px); */
+        background-color: green;
+        border-radius: 50%;
+    }
+}
