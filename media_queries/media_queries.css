@@ -3,39 +3,66 @@
     margin: 0;
     box-sizing: border-box;
 }
-.box{
+/* body{
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: gray;
-    gap: 30px;
-}
-.card{
-    width: 28%;
-    height: 250px;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* div{
+    width: 300px;
+    height: 300px;
     border: 2px solid black;
-    border-radius: 10px;
-    background-color: lightblue;
+    box-shadow: 10px 10px 10px 10px gray;
+} */
+
+
+.navbar{
+    width: 100%;
+    height: 78px;
+    background-color: red;
+}
+.logo{
+    width: 100px;
+    height: 100%;
+    background-color: purple;
+    display: none;
+}
+.hero{
+    width: 100%;
+    height: 89vh;
+    background-color: blue;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    
 }
 
-/* for responsive screen in any website we have to use @ rule i.e is @media screen  rule  */
-
-@media screen and (max-width:450px) {
-    .box{
-        background-color: red;
+@media screen and (max-width:500px) {
+    .navbar{
+        background-color: yellow;
     }
-    .card{
-        width: 60%;
-        margin: auto;
-    }
-}
-@media screen and (min-width:450px) and (max-width:750px) {
-    .box{
+    .hero{
         background-color: green;
     }
-    .card{
-        width: 40%;
+    .image{
+        display: none;
+    }
+    .logo{
+        display: block;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+    
+    .navbar{
+        background-color: navy;
+    }
+    .hero{
+        background-color: fuchsia;
     }
 }
